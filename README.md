@@ -31,3 +31,14 @@ The proper script can then be located within the `scripts` folder and ran using 
 python [model_name].py
 ```
 Python scripts are named using the following convention: [finetuning_language]_[pretraining_language]_[base_model]. finetuning_language can appear as "gal" for Galician or "spa" for Spanish. pretraining_language can appear as "en" for English, "pt" for Portuguese, "sp" for Spanish, or some combination of the three. base_model can appear as "mBERT" or "XLM-R" each refering to their respective base model. The Spanish model scripts produce both the Spanish model for which they are named, and their dependant Galician model.
+
+## How to Cite
+```bibtex
+@mastersthesis{bruton-galician-srl-23,
+    author = {Bruton, Micaella},
+    title = {BERTie Bott's Every Flavor Labels: A Tasty Guide to Developing a Semantic Role Labeling Model for Galician},
+    school = {Uppsala University},
+    year = {2023},
+    type = {Master's thesis},
+}
+```
