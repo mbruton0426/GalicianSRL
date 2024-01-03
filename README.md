@@ -34,11 +34,21 @@ Python scripts are named using the following convention: [finetuning_language]_[
 
 ## How to Cite
 ```bibtex
-@mastersthesis{bruton-galician-srl-23,
-    author = {Bruton, Micaella},
-    title = {BERTie Bott's Every Flavor Labels: A Tasty Guide to Developing a Semantic Role Labeling Model for Galician},
-    school = {Uppsala University},
-    year = {2023},
-    type = {Master's thesis},
+@inproceedings{bruton-beloucif-2023-bertie,
+    title = "{BERT}ie Bott{'}s Every Flavor Labels: A Tasty Introduction to Semantic Role Labeling for {G}alician",
+    author = "Bruton, Micaella  and
+      Beloucif, Meriem",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.671",
+    doi = "10.18653/v1/2023.emnlp-main.671",
+    pages = "10892--10902",
+    abstract = "In this paper, we leverage existing corpora, WordNet, and dependency parsing to build the first Galician dataset for training semantic role labeling systems in an effort to expand available NLP resources. Additionally, we introduce verb indexing, a new pre-processing method, which helps increase the performance when semantically parsing highly-complex sentences. We use transfer-learning to test both the resource and the verb indexing method. Our results show that the effects of verb indexing were amplified in scenarios where the model was both pre-trained and fine-tuned on datasets utilizing the method, but improvements are also noticeable when only used during fine-tuning. The best-performing Galician SRL model achieved an f1 score of 0.74, introducing a baseline for future Galician SRL systems. We also tested our method on Spanish where we achieved an f1 score of 0.83, outperforming the baseline set by the 2009 CoNLL Shared Task by 0.025 showing the merits of our verb indexing method for pre-processing.",
 }
 ```
